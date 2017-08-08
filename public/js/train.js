@@ -187,6 +187,8 @@ $(document).ready(function() {
     $(this).parent().css('display', 'none');
 
     scrollToElement($('._examples.showing'));
+    /* Find by DOM element
+    */
   });
 
   $('a.select_all').click(function() {
